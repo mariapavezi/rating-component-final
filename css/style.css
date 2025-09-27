@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #131518;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    width: 412px;
+    height: 416px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    /* display: flex;  */
+}
+
+.main{
+     padding: 32px 39px 32px 32px;
+}
+
+.star{
+    width: 48px;
+    height: 48px;
+    background-color: #262634;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.main--title{
+    font-size: 28px;
+    line-height: 35.45px;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+
+.main--content{
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+    margin-bottom: 24px;
+}
+
+.numbers{
+    display: flex;
+    gap: 21px;
+}
+
+.number--circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 51px;
+    height: 51px;
+    background-color: #262634;
+    border-radius: 50%;
+    color: #7C8798;
+    margin-bottom: 32px;
+}
+
+.number--circle:hover{
+    background-color: #fC7614 ;
+    color: #ffffff;   
+}
+
+.number--circle:active{
+    background-color: #7C8798 ;
+    color: #ffffff;   
+}
+
+
+.submit{
+    width: 100%;
+    background-color: #fC7614;
+    border-radius: 22.5px;
+    padding: 11px 138px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all ease .3s;
+
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+}
+
+.submit:hover{
+    background-color: #ffffff;
+    color: #fC7614;
+
+}
+
+/* second--screen */
+
+.second--screen{
+    padding: 45px 40px 45px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-file{
+    width: 162px;
+    height: 108px;
+    margin-bottom: 32px;
+}
+
+.result{
+    width: 193px;
+    height: 32px;
+    border-radius: 22.5px;
+    background-color: #262634;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fC7614;
+    margin-bottom: 32px;
+}
+
+.second--screen h1{
+    margin-bottom: 7px;
+}
+
+.second--screen p{
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.hidden{
+    display: none;
+}
